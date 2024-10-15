@@ -1,9 +1,7 @@
-
-
 function App() {
   return (
     <div className="App">
-      <h1 style={{color:'blue', textAlign: 'center'}}>Hello Humphrey, Welcome to react</h1>
+      <h1 className="text-2xl text-indigo-600 font-bold">Hello Humphrey, Welcome to react</h1>
     </div>
   );
 }
