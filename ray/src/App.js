@@ -1,9 +1,9 @@
 function App() {
-  return <>
-    <h1>
-      Hello Ray Welcome to react...
-    </h1>
-  </>
+  return (
+    <div>
+      <h1 className="text-2xl text-indigo-600 font-bold">Hello Ray, Welcome to react</h1>
+    </div>
+  );
 }
 
 export default App;
