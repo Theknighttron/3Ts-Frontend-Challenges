@@ -1,11 +1,12 @@
+import Header from "./component/Header";
 
 function App() {
   return (
-    <div style={{ backgroundColor: 'lightblue', padding: '3px', textAlign: 'center' }}
-      className="App">
-      <h1 style={{ color: 'darkblue', fontSize: '30px' }}>
-        Hello Bioto, Welcome to React</h1>
-
+    <div className="App">
+      <Header />
+      <h1 className="text-2xl text-indigo-600 font-bold">
+        Hello Bioto, Welcome to react
+      </h1>
     </div>
   );
 }
